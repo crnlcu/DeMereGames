@@ -29,4 +29,4 @@ You throw 2 fair dice and you win if you throw a double-six in at most 24 throws
 
 **How many throws are needed for Game 2 to be more favorable than Game 1?**  
 
-**Answer:** At least **26 throws**
+ At least **26** throws!!!!
