@@ -1,29 +1,39 @@
-<h> De Mere’s Games </h>
-Simulations
-<br>
-Credit: The art of Statistics Chapter 8
-<br>
-Game 1, you throw a fair die and you win if you throw a six in at most 4 throws; 
-Game 2, you throw 2 fair dice and you win if you throw a double-six in at most 24 throws of two fair dice.
-<br>
-Game 1
-<br>
-prob(not have a 6 in 4 throws) = (5/6) ** 4 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>De Mere’s Games</title>
+</head>
+<body>
+    <h1>De Mere’s Games</h1>
 
-prob(have a 6 in 4 throws) = 1 -(5/6)**4 = 0.5177469136
-<br>
-Game 2
-<br>
-prob(double-six in single throw) = 1/6 * 1/6 =1/36
-<br>
-prob(not double-six in single throw) = 35/36  (one case)
+    <p>Simulations</p>
+    <p>Credit: <em>The Art of Statistics</em>, Chapter 8</p>
 
-prob(not having a double-six in 24 throws) = (35/36) **24
+    <p>
+        <strong>Game 1:</strong> You throw a fair die and you win if you throw a six in at most 4 throws.
+    </p>
+    <p>
+        Probability of not having a 6 in 4 throws: <code>(5/6)^4</code><br>
+        Probability of having a 6 in 4 throws: <code>1 - (5/6)^4 = 0.5177469136</code>
+    </p>
 
-prob( having a double-six in 24 throws) = 1 -(35/36) **24 = 0.4914038761
+    <p>
+        <strong>Game 2:</strong> You throw 2 fair dice and you win if you throw a double-six in at most 24 throws of two dice.
+    </p>
+    <p>
+        Probability of double-six in a single throw: <code>1/6 * 1/6 = 1/36</code><br>
+        Probability of not getting double-six in a single throw: <code>35/36</code><br>
+        Probability of not having a double-six in 24 throws: <code>(35/36)^24</code><br>
+        Probability of having a double-six in 24 throws: <code>1 - (35/36)^24 = 0.4914038761</code>
+    </p>
 
-<br>
-How many throws to have Game 2 more favourable thant Game 1?
+    <p>
+        <strong>Question:</strong> How many throws are needed for Game 2 to be more favorable than Game 1?<br>
+        <strong>Answer:</strong> At least 26 throws
+    </p>
+</body>
+</html>
+
 
 
 
